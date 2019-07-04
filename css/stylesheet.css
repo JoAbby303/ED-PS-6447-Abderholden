@@ -1,5 +1,5 @@
 /* Styles */
-body#page1  {
+body#page1 {
     background-image: url("../img/topography.png");
     background-repeat: no-repeat;
     background-size: 50% 100%;
@@ -78,4 +78,13 @@ hr{
     padding-top: 0%;
 }
 
-    
+body#page3  {
+    background-color:#F7F6F4;
+    font-family:'Roboto Mono', monospace;
+    font-size: 20px;
+}
+  
+hr{
+    padding-bottom: 0%;
+    padding-top: 0%;
+}
