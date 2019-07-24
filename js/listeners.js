@@ -1,4 +1,4 @@
-viewportfolio.addEventListener("click",function(){
+/*viewportfolio.addEventListener("click",function(){
     router("view_portfolio");
 });
 viewhome.addEventListener("click", function(){
@@ -6,4 +6,4 @@ viewhome.addEventListener("click", function(){
 });
 viewresume.addEventListener("click", function(){
     router("view_resume");
-});
+});*/

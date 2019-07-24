@@ -1,4 +1,4 @@
-function router(value){
+/*function router(value){
     hideallview();
     switch(value){
         case "grid":
@@ -21,5 +21,11 @@ function hideallview(){
     grid.classList.add("d-none");
     //$("#grid").hide();
     view_resume.classList.add("d-none");
-    view_design.classList.add("d-none");
+    view_design.classList.add("d-none");*/
+}
+function myFunction() {
+  document.getElementById("smartbutton").innerHTML = "<img src="../img/SmartBoard%20%20(1).jpeg" />";
+}
+function myFunction() {
+  document.getElementById("smartbutton2").innerHTML = "<img src="<iframe width="560" height="315" src="https://www.youtube.com/embed/9Zw_s6pzQLU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>" />";
 }
