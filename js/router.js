@@ -22,10 +22,17 @@ function hideallview(){
     //$("#grid").hide();
     view_resume.classList.add("d-none");
     view_design.classList.add("d-none");*/
-}
+
 function myFunction() {
-  document.getElementById("smartbutton").innerHTML = "<img src="../img/SmartBoard%20%20(1).jpeg" />";
+  document.getElementById("wrapper_1").innerHTML = "<img width='600px' src='../img/SmartBoard%20%20(1).jpeg'/>";
 }
-function myFunction() {
-  document.getElementById("smartbutton2").innerHTML = "<img src="<iframe width="560" height="315" src="https://www.youtube.com/embed/9Zw_s6pzQLU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>" />";
+function myFunction_default() {
+  document.getElementById("wrapper_1").innerHTML = "<img width='500px' src='../img/SmartBoard%20%20(1).jpeg'/>";
+}
+function myFunction2() {
+  document.getElementById("wrapper_2").innerHTML = "<iframe width='600' height='315' src='https://www.youtube.com/embed/9Zw_s6pzQLU' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
+}
+
+function myFunction_default2() {
+  document.getElementById("wrapper_2").innerHTML = " <img src="../img/app.png" width="500" height="300">";
 }

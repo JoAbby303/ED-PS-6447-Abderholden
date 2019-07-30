@@ -10,3 +10,5 @@ var smartbutton = document.getElementById("smartbutton");
 console.log(smartbutton);
 var smartbutton2 = document.getElementById("smartbutton2");
 console.log(smartbutton2);
+var smartbuttonclicked = false; 
+var smartbuttonclicked2 = false; 
